@@ -1,0 +1,20 @@
+<template>
+    
+    Levenshtein Web Component
+
+    <lightning-input 
+        name="string_1"
+        label="String 1" 
+        onchange={handleChange}
+    ></lightning-input>
+    
+    <lightning-input 
+        name="string_2"
+        label="String 2" 
+        onchange={handleChange}
+    ></lightning-input>
+    
+    <label>Levenshtein Distance</label>
+    <h3>{result}</h3>
+
+</template>
